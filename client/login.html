@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.style.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <script src="./js/auth.js" defer></script>
+    <script src="./js/login.js" defer></script>
+    
+</head>
+<body>
+    <header>
+      <img src="./images/blank-profile-picture-973460__480.webp" alt="snoopy" >
+      <div>Home</div>
+      <div>About us</div>
+      <div id="user-status"></div>
+    </header>
+    <main>
+      <form data-login-form>
+        <p>        <label for="username">Username</label>
+            <input id="username" type="text" required /></p>
+
+        <p >  <label for="password">Password</label>
+            <input id="password" type="password" required />
+            <input type="checkbox" onclick="togglePassword()">Show Password</p>
+
+        <p  data-login-form-message>register successfully</p>
+        <button type="submit">Login</button>
+        <a href="register.html">Don't have account? click here</a>
+      </form>
+    </main>
+    <footer>Copy-right Yakov Eliyahu &copy;</footer>
+  </body>
+</html>

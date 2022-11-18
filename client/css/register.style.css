@@ -1,0 +1,71 @@
+
+#register{
+    position: absolute;
+    font-size: 50px;
+    color: #218c74;
+    left: 43%;
+    top: 15%;
+}
+header > img {
+    width: 70px;
+    height: 70px;
+  }
+form {
+    color: #218c74;
+    display: flex;
+    width: 40%;
+    height: 50vh;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 8px;
+  }
+  #user-address {
+    flex-direction: column;
+    width: 50%;
+display: flex;
+gap: 5px;
+align-items: flex-start;
+justify-content: space-between;
+  }
+  #user-data {
+    width: 50%;
+    flex-direction: column;
+display: flex;
+gap: 5px;
+align-items: flex-start;
+justify-content: space-between;
+  }
+  #register-button {
+    color: #218c74;
+    background-color: #303952;
+    position: absolute;
+height: 40px;
+width: 70px;
+   left: 55%;
+   top: 60%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #register-link {
+    position: absolute;
+height: 800px;
+width: 300px;
+   left: 50%;
+   top: 70%;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #218c74;
+  }
+
+  #message-style {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+  }
+
+  /* .inputs {
+    width: 20%;
+  } */

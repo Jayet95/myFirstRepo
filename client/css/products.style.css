@@ -1,0 +1,39 @@
+#productBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
+    row-gap: 1px;
+    
+}
+
+
+h1{
+    position: absolute;
+height: 20%;
+width: 50vw;
+   left: 40%;
+   top: 20%;
+}
+
+#productBox {
+    justify-content: space-between;
+    flex-direction: row;
+   width: 50vw;
+   height: 20%;
+    margin: 20px;
+    padding: 20px;
+    
+    display: flex;
+    align-items: center;
+
+}
+#productBox > ul {
+        flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 20px;
+}
